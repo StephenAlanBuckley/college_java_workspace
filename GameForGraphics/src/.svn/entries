@@ -1,0 +1,64 @@
+10
+
+dir
+622
+svn+ssh://cslab.bc.edu/home/users1/ameswi/SVN-CS333/cs333GameF10/trunk/src
+svn+ssh://cslab.bc.edu/home/users1/ameswi/SVN-CS333/cs333GameF10
+
+
+
+2010-12-10T10:07:47.929481Z
+622
+jungyo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30c7f43d-4fab-4852-b661-15a7f3785166
+
+Bats
+dir
+
+Buildings
+dir
+
+Environment
+dir
+
+Explosions
+dir
+
+Movement
+dir
+
+PowerUps
+dir
+
+SketchupModels
+dir
+
+Vehicles
+dir
+
+Weapons
+dir
+
+jaxb
+dir
+
+main
+dir
+
+net
+dir
+

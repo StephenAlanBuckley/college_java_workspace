@@ -1,0 +1,1 @@
+xjc -extension simpleMode.schemalet -p jaxb *.xsd

@@ -1,0 +1,531 @@
+package Movement;
+
+import java.awt.Cursor;
+import java.awt.Image;
+import java.awt.Point;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseWheelEvent;
+import java.util.ArrayList;
+
+import javax.media.opengl.awt.GLCanvas;
+
+import Weapons.Famas;
+import Weapons.Weapon;
+
+import main.Game;
+import main.Player;
+import Buildings.Step;
+
+public class WalkingBehavior implements ControlBehavior {
+
+	private final int NO_MOVE = 0;
+	private final int MOVE_FORWARD = 1;
+	private final int MOVE_BACKWARD = 2;
+	private final int MOVE_LEFT = 1;
+	private final int MOVE_RIGHT = 2;
+	
+	private final float JUMP_ACCELERATION = 0.7f;
+	
+	private final float CROUCH_HEIGHT_DIFFERENCE = 3;
+	private final float CROUCH_SPEED_DIFFERENCE = 1;
+	
+	protected float maxForwardSpeed = 3;
+	protected float forwardAcceleration = .5f;
+	protected float maxStrafeSpeed = 2;
+	protected float strafeAcceleration = .5f;
+	
+	private float forwardSpeed = 0f;
+	private float strafeSpeed = 2f;
+	
+	private float yAcceleration;
+	private double yStartJump; //y location at start of a jump
+	private boolean jumping;
+	private boolean crouching;
+	private double yStartCrouch;
+	private int forwardMotion, strafeMotion;
+	private Eye eye;
+	private Game game;
+	private GLCanvas canvas;
+	private boolean ignoreMouse;
+	private int centerX, centerY;
+	private Robot robot;
+	private Cursor invisibleCursor;
+	private Player player;
+	private int forG;
+	
+	private ArrayList<Step> steps;
+	
+	private TimedKeyListener keyListener;
+	
+
+	public WalkingBehavior(Game game, GLCanvas canvas, Eye eye, Player player){
+		this.eye = eye;
+		this.game = game;
+		this.canvas = canvas;
+		ignoreMouse = false;
+		this.player = player;
+		steps = game.stepList();
+		crouching = false;
+		this.eye.setStepSize(forwardSpeed);
+		forG=0;
+		
+		//set up invisible cursor
+		byte[]imageByte=new byte[0];  
+		Point myPoint=new Point(0,0);
+		Image cursorImage=Toolkit.getDefaultToolkit().createImage(imageByte);
+		invisibleCursor=Toolkit.getDefaultToolkit().createCustomCursor(cursorImage,myPoint,"cursor");
+		canvas.setCursor(invisibleCursor);
+
+		strafeMotion = NO_MOVE;
+		forwardMotion = NO_MOVE;
+		yAcceleration = 0;
+		jumping = false;
+		
+		try{
+			robot = new Robot();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		String os = System.getProperty("os.name").toLowerCase();
+		//linux or unix
+	   if (os.indexOf( "nix") >=0 || os.indexOf( "nux") >=0)
+	   {
+			keyListener = new TimedKeyListener(game, eye){
+					
+					@Override
+					public void KeyPressed(KeyEvent e) 
+					{
+						switch (e.getKeyCode())
+						{
+							//forward
+							case KeyEvent.VK_W: 
+								forwardMotion = MOVE_FORWARD;
+								
+								break;
+						
+							// back
+							case KeyEvent.VK_S:
+								forwardMotion = MOVE_BACKWARD;
+								//forG=3;
+								break;
+							
+							// strafe left
+							case KeyEvent.VK_A:     
+								strafeMotion = MOVE_LEFT;
+							//	forG=4;
+								break;
+							
+							// strafe right
+							case KeyEvent.VK_D:     
+								strafeMotion = MOVE_RIGHT;
+								//forG=2;
+								break;
+								
+							//jump
+							case KeyEvent.VK_SPACE:
+								if(jumping == false){
+									yStartJump = eye.getY();
+									yAcceleration = JUMP_ACCELERATION;
+									jumping = true;
+								}
+								break;
+							
+							// turn                        
+							case KeyEvent.VK_LEFT:  eye.addToDirection(5); break;
+							case KeyEvent.VK_RIGHT: eye.addToDirection(-5); break;
+							
+							// LessThan/GreaterThan
+							case KeyEvent.VK_PERIOD:    eye.addToY(+1); break;
+							case KeyEvent.VK_COMMA:  eye.addToY(-1); break;
+							
+							//up/down
+							case KeyEvent.VK_UP:   eye.addToTilt(1f); break;
+							case KeyEvent.VK_DOWN: eye.addToTilt(-1f); break;
+							
+							// exit
+							case KeyEvent.VK_ESCAPE: System.exit(0); break;
+							
+							case KeyEvent.VK_E: game.enterVehicle(); break;
+							
+							/*case KeyEvent.VK_CONTROL:
+								if (!crouching)
+								{
+									eye.addToY(-CROUCH_HEIGHT_DIFFERENCE);
+									maxForwardSpeed -= CROUCH_SPEED_DIFFERENCE;
+									crouching = true;
+								}
+								break;*/
+							//default: forG=0;	break;
+						}
+						
+						
+				        for (Step s : steps)
+				        	s.modEye(); 
+					}
+	
+					@Override
+					public void KeyReleased(KeyEvent e) 
+					{
+						switch (e.getKeyCode()) {
+						// forward
+						case KeyEvent.VK_W:     
+							if (forwardMotion == MOVE_FORWARD)
+								forwardMotion = NO_MOVE;
+						break;
+	
+						// back
+						case KeyEvent.VK_S:     
+							if (forwardMotion == MOVE_BACKWARD) 
+									forwardMotion = NO_MOVE;
+						break;
+	
+						// strafe left
+						case KeyEvent.VK_A:     
+							if (strafeMotion == MOVE_LEFT) 
+								strafeMotion = NO_MOVE;
+						break;
+	
+						// strafe right
+						case KeyEvent.VK_D:    
+							if (strafeMotion == MOVE_RIGHT) 
+								strafeMotion = NO_MOVE;
+						break;
+						
+						
+							
+						/*
+						case KeyEvent.VK_CONTROL:
+							if (crouching)
+							{
+								eye.addToY(CROUCH_HEIGHT_DIFFERENCE);
+								maxForwardSpeed += CROUCH_SPEED_DIFFERENCE;
+								crouching = false;
+							}
+						break;*/
+						}
+					}
+					
+	
+	
+					@Override
+					public void KeyTyped(KeyEvent arg0) {
+						// TODO Auto-generated method stub
+	
+					}
+			};
+			canvas.addKeyListener(keyListener);
+	   }
+	   else
+	   {
+		   canvas.addKeyListener(this);	
+	   }
+		canvas.addMouseListener(this);
+		canvas.addMouseWheelListener(this);
+	}
+	
+	private void setCenterPoint() {
+		Point topLeft = canvas.getLocationOnScreen();
+		centerX = topLeft.x + canvas.getWidth()/2;
+		centerY = topLeft.y + canvas.getHeight()/2;
+	}
+	
+	public void stopListening() {
+		canvas.removeKeyListener(keyListener);
+		canvas.removeMouseListener(this);
+		canvas.removeMouseWheelListener(this);
+	}
+	
+	@Override
+	public void keyPressed(KeyEvent e) 
+	{
+		switch (e.getKeyCode())
+		{
+			//forward
+			case KeyEvent.VK_W: 
+				forwardMotion = MOVE_FORWARD;
+				forG=1;
+				break;
+		
+			// back
+			case KeyEvent.VK_S:
+				forwardMotion = MOVE_BACKWARD; 
+				forG=3;
+				break;
+			
+			// strafe left
+			case KeyEvent.VK_A:     
+				strafeMotion = MOVE_LEFT;
+				forG=4;
+				break;
+			
+			// strafe right
+			case KeyEvent.VK_D:     
+				strafeMotion = MOVE_RIGHT;
+				forG=2;
+				break;
+				
+			//jump
+			case KeyEvent.VK_SPACE:
+				if(jumping == false){
+					yStartJump = eye.getY();
+					yAcceleration = JUMP_ACCELERATION;
+					jumping = true;
+				}
+				break;
+			
+			// turn                        
+			case KeyEvent.VK_LEFT:  eye.addToDirection(5); break;
+			case KeyEvent.VK_RIGHT: eye.addToDirection(-5); break;
+			
+			// LessThan/GreaterThan
+			case KeyEvent.VK_PERIOD:    eye.addToY(+1); break;
+			case KeyEvent.VK_COMMA:  eye.addToY(-1); break;
+			
+			//up/down
+			case KeyEvent.VK_UP:   eye.addToTilt(1f); break;
+			case KeyEvent.VK_DOWN: eye.addToTilt(-1f); break;
+			
+			// exit
+			case KeyEvent.VK_ESCAPE: System.exit(0);
+			
+			case KeyEvent.VK_E: game.enterVehicle();
+			
+			case KeyEvent.VK_M: game.gameSounds.toggleSound(); //Turns sound on and off
+			case KeyEvent.VK_N: game.gameSounds.switchTrack();//switches the background music, so you can be more or less thug.
+		
+		}
+		
+        for (Step s : steps)
+        	s.modEye(); 
+	}
+
+	@Override
+	public void keyReleased(KeyEvent e) 
+	{
+		forG=0;
+		switch (e.getKeyCode()) {
+		// forward
+		case KeyEvent.VK_W:     
+			if (forwardMotion == MOVE_FORWARD)
+				forwardMotion = NO_MOVE;
+		break;
+
+		// back
+		case KeyEvent.VK_S:     
+			if (forwardMotion == MOVE_BACKWARD) 
+					forwardMotion = NO_MOVE;
+		break;
+
+		// strafe left
+		case KeyEvent.VK_A:     
+			if (strafeMotion == MOVE_LEFT) 
+				strafeMotion = NO_MOVE;
+		break;
+
+		// strafe right
+		case KeyEvent.VK_D:    
+			if (strafeMotion == MOVE_RIGHT) 
+				strafeMotion = NO_MOVE;
+			
+	
+		break;
+		}
+	}
+
+	@Override
+	public void keyTyped(KeyEvent arg0) {
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent arg0) {
+		if(arg0.getButton() == MouseEvent.BUTTON3 || (arg0.isControlDown() && arg0.getButton() == MouseEvent.BUTTON1)){
+			ignoreMouse = !ignoreMouse;
+			if (!ignoreMouse)
+				canvas.setCursor(invisibleCursor);
+			else 
+				canvas.setCursor(Cursor.getDefaultCursor());
+		}
+		player.getLookBehavior().setIgnorMouse(ignoreMouse);
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent arg0) {}
+
+	@Override
+	public void mouseExited(MouseEvent arg0) {}
+
+	@Override
+	public void mousePressed(MouseEvent arg0) {}
+
+	@Override
+	public void mouseReleased(MouseEvent arg0) {}
+
+	@Override
+	public void mouseWheelMoved(MouseWheelEvent arg0) {
+		eye.addToY(-arg0.getWheelRotation());  
+	}
+
+	@Override
+	public void update() 
+	{ 
+		setCenterPoint();
+		
+		if(jumping){
+			eye.addToY(yAcceleration);
+			if(eye.getY() < yStartJump){
+				jumping = false;
+				yAcceleration = 0;
+				eye.setY(yStartJump);
+			}
+			yAcceleration -= JUMP_ACCELERATION/10;
+		}
+		
+		switch (forwardMotion) 
+		{
+			case MOVE_FORWARD: 
+					moveForward(MOVE_FORWARD);
+					break;		
+			case MOVE_BACKWARD: 
+					moveBackward(MOVE_BACKWARD);
+					break;
+			case NO_MOVE:
+				if (forwardSpeed > 0)
+					if (forwardSpeed < forwardAcceleration)
+						forwardSpeed = 0;
+					else
+						moveBackward(MOVE_FORWARD);
+				else if (forwardSpeed < 0)
+					if (forwardSpeed > -forwardAcceleration)
+						forwardSpeed = 0;
+					else
+						moveForward(MOVE_BACKWARD);
+				break;
+			default:
+				break;
+		}
+
+		switch (strafeMotion) 
+		{
+			case MOVE_LEFT: 
+				if(!game.checkCollision(MOVE_LEFT))
+					strafeLeft(MOVE_LEFT);
+				break;
+			case MOVE_RIGHT: 
+				if(!game.checkCollision(MOVE_RIGHT))
+					strafeRight(MOVE_RIGHT);
+				break;
+			case NO_MOVE:
+				if (strafeSpeed > 0)
+					if (strafeSpeed < strafeAcceleration)
+						strafeSpeed = 0;
+					else
+						strafeLeft(MOVE_RIGHT);
+				else if (strafeSpeed < 0)
+					if (strafeSpeed > -strafeAcceleration)
+						strafeSpeed = 0;
+					else
+						strafeRight(MOVE_LEFT);
+				break;
+			default:
+				break;
+		}
+	}
+	
+	private void moveForward(int collision)
+	{
+		if(!game.checkCollision(collision))
+		{
+			if (forwardSpeed < maxForwardSpeed)
+				forwardSpeed += forwardAcceleration;
+			eye.setStepSize(forwardSpeed);
+			eye.moveForward();
+		}
+		else
+		{
+			System.out.println("collision");
+			forwardSpeed = 0;
+		}
+	}
+	
+	private void moveBackward(int collision)
+	{
+		if(!game.checkCollision(collision))
+		{
+			if (forwardSpeed > -maxForwardSpeed)
+				forwardSpeed -= forwardAcceleration;
+			eye.setStepSize(forwardSpeed);
+			eye.moveForward();
+		}
+		else
+		{
+			forwardSpeed = 0;
+			eye.setStepSize(forwardSpeed);
+		}
+	}
+	
+	private void strafeLeft(int collision)
+	{
+		if(!game.checkCollision(collision))
+		{
+			if (strafeSpeed > -maxStrafeSpeed)
+				strafeSpeed -= strafeAcceleration;
+			eye.setStepSize(strafeSpeed);
+			eye.strafeRight();
+		}
+		else
+		{
+			strafeSpeed = 0;
+			eye.setStepSize(strafeSpeed);
+		}
+	}
+	
+	private void strafeRight(int collision)
+	{
+		if(!game.checkCollision(collision))
+		{
+			if (strafeSpeed < maxStrafeSpeed)
+				strafeSpeed += strafeAcceleration;
+			eye.setStepSize(strafeSpeed);
+			eye.strafeRight();
+		}
+		else
+		{
+			strafeSpeed = 0;
+			eye.setStepSize(strafeSpeed);
+		}
+	}
+
+	@Override
+	public void setImmobile() {
+		forwardSpeed = 0;
+		strafeSpeed = 0;
+		eye.setStepSize(0);
+	}
+
+	@Override
+	public void setDefaultStepSize() {
+		eye.setStepSize(forwardSpeed);
+	}
+
+	@Override
+	public int getForwardMotion() {
+		// TODO Auto-generated method stub
+		return forwardMotion;
+	}
+
+	@Override
+	public void startListening() {
+		canvas.addKeyListener(keyListener);
+		canvas.addMouseListener(this);
+		canvas.addMouseWheelListener(this);
+	}
+	public int getForG(){
+		return forG;
+	}
+
+}

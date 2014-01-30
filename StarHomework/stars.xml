@@ -1,0 +1,1503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<starlist>
+  <star>
+    <point x="362.964" y="373.948"/>
+    <velocity dx="0.50846887" dy="-4.899827"/>
+    <color red="0.378796" green="0.776673" blue="0.419813"/>
+  </star>
+  <star>
+    <point x="126.556" y="124.949"/>
+    <velocity dx="-0.09113814" dy="-4.916107"/>
+    <color red="0.52604" green="0.987594" blue="0.65154"/>
+  </star>
+  <star>
+    <point x="377.48" y="349.912"/>
+    <velocity dx="5.049021" dy="0.57296205"/>
+    <color red="0.363941" green="0.719108" blue="0.486007"/>
+  </star>
+  <star>
+    <point x="114.67" y="139.816"/>
+    <velocity dx="-4.028229" dy="-2.778487"/>
+    <color red="0.839068" green="0.94866" blue="0.902448"/>
+  </star>
+  <star>
+    <point x="386.734" y="361.948"/>
+    <velocity dx="3.791591" dy="3.423943"/>
+    <color red="0.516724" green="0.400174" blue="0.870197"/>
+  </star>
+  <star>
+    <point x="116.561" y="129.926"/>
+    <velocity dx="-2.4473991" dy="-4.236937"/>
+    <color red="0.968848" green="0.80311" blue="0.55678"/>
+  </star>
+  <star>
+    <point x="377.496" y="361.967"/>
+    <velocity dx="4.9840207" dy="1.0216221"/>
+    <color red="0.817713" green="0.432241" blue="0.692167"/>
+  </star>
+  <star>
+    <point x="134.347" y="127.614"/>
+    <velocity dx="-1.2732792" dy="4.896463"/>
+    <color red="0.936277" green="0.679189" blue="0.339129"/>
+  </star>
+  <star>
+    <point x="369.776" y="372.55"/>
+    <velocity dx="2.195921" dy="-4.445877"/>
+    <color red="0.554559" green="0.904759" blue="0.570215"/>
+  </star>
+  <star>
+    <point x="124.151" y="126.05"/>
+    <velocity dx="-3.814589" dy="-3.0627968"/>
+    <color red="0.772439" green="0.32281" blue="0.550623"/>
+  </star>
+  <star>
+    <point x="375.212" y="373.572"/>
+    <velocity dx="5.0191708" dy="0.81463104"/>
+    <color red="0.478408" green="0.915403" blue="0.27749"/>
+  </star>
+  <star>
+    <point x="112.304" y="107.259"/>
+    <velocity dx="4.139341" dy="-2.8286068"/>
+    <color red="0.424963" green="0.878872" blue="0.975417"/>
+  </star>
+  <star>
+    <point x="377.403" y="361.795"/>
+    <velocity dx="4.9924707" dy="0.9763821"/>
+    <color red="0.459914" green="0.351489" blue="0.898144"/>
+  </star>
+  <star>
+    <point x="125.007" y="119.433"/>
+    <velocity dx="5.073261" dy="0.08766379"/>
+    <color red="0.414205" green="0.672323" blue="0.786699"/>
+  </star>
+  <star>
+    <point x="380.768" y="391.863"/>
+    <velocity dx="-4.657639" dy="1.699403"/>
+    <color red="0.895695" green="0.921102" blue="0.983566"/>
+  </star>
+  <star>
+    <point x="122.478" y="126.946"/>
+    <velocity dx="-2.981389" dy="-3.8772268"/>
+    <color red="0.98954" green="0.739616" blue="0.703177"/>
+  </star>
+  <star>
+    <point x="375.509" y="384.988"/>
+    <velocity dx="-4.920249" dy="0.33587506"/>
+    <color red="0.364444" green="0.434301" blue="0.958754"/>
+  </star>
+  <star>
+    <point x="106.059" y="108.505"/>
+    <velocity dx="3.3569608" dy="-3.6893969"/>
+    <color red="0.535539" green="0.609928" blue="0.645177"/>
+  </star>
+  <star>
+    <point x="383.816" y="381.245"/>
+    <velocity dx="-2.8168192" dy="4.161323"/>
+    <color red="0.783242" green="0.584613" blue="0.778436"/>
+  </star>
+  <star>
+    <point x="143.93" y="137.919"/>
+    <velocity dx="-2.7451892" dy="4.211123"/>
+    <color red="0.728401" green="0.836253" blue="0.390927"/>
+  </star>
+  <star>
+    <point x="371.683" y="384.766"/>
+    <velocity dx="-4.661189" dy="-1.526577"/>
+    <color red="0.563829" green="0.479942" blue="0.583399"/>
+  </star>
+  <star>
+    <point x="117.662" y="121.787"/>
+    <velocity dx="2.0789108" dy="-4.498917"/>
+    <color red="0.441969" green="0.276803" blue="0.982833"/>
+  </star>
+  <star>
+    <point x="383.728" y="382.646"/>
+    <velocity dx="-3.2216291" dy="3.842003"/>
+    <color red="0.518807" green="0.674085" blue="0.606723"/>
+  </star>
+  <star>
+    <point x="129.093" y="131.791"/>
+    <velocity dx="-4.209039" dy="2.6622531"/>
+    <color red="0.904118" green="0.876308" blue="0.883679"/>
+  </star>
+  <star>
+    <point x="384.492" y="367.689"/>
+    <velocity dx="3.124491" dy="4.042253"/>
+    <color red="0.767884" green="0.447874" blue="0.33002"/>
+  </star>
+  <star>
+    <point x="128.996" y="115.755"/>
+    <velocity dx="4.662831" dy="2.065083"/>
+    <color red="0.353" green="0.447005" blue="0.382939"/>
+  </star>
+  <star>
+    <point x="365.828" y="376.164"/>
+    <velocity dx="-0.55641115" dy="-4.878997"/>
+    <color red="0.644192" green="0.340457" blue="0.63966"/>
+  </star>
+  <star>
+    <point x="110.967" y="113.81"/>
+    <velocity dx="3.1905208" dy="-3.828117"/>
+    <color red="0.693243" green="0.450186" blue="0.753006"/>
+  </star>
+  <star>
+    <point x="355.652" y="368.425"/>
+    <velocity dx="1.6821709" dy="-4.652877"/>
+    <color red="0.850444" green="0.930532" blue="0.733093"/>
+  </star>
+  <star>
+    <point x="128.779" y="131.402"/>
+    <velocity dx="-4.2326193" dy="2.622733"/>
+    <color red="0.652249" green="0.277261" blue="0.405393"/>
+  </star>
+  <star>
+    <point x="387.955" y="376.737"/>
+    <velocity dx="-0.59111214" dy="5.036853"/>
+    <color red="0.365246" green="0.867519" blue="0.274995"/>
+  </star>
+  <star>
+    <point x="132.911" y="126.301"/>
+    <velocity dx="-0.73808813" dy="5.014923"/>
+    <color red="0.936415" green="0.531098" blue="0.79709"/>
+  </star>
+  <star>
+    <point x="365.942" y="381.951"/>
+    <velocity dx="-2.9707491" dy="-3.885417"/>
+    <color red="0.849391" green="0.902997" blue="0.803682"/>
+  </star>
+  <star>
+    <point x="134.015" y="125.773"/>
+    <velocity dx="-0.35382813" dy="5.062923"/>
+    <color red="0.387356" green="0.307199" blue="0.336657"/>
+  </star>
+  <star>
+    <point x="383.23" y="387.813"/>
+    <velocity dx="-4.133559" dy="2.783533"/>
+    <color red="0.55195" green="0.421781" blue="0.387104"/>
+  </star>
+  <star>
+    <point x="112.96" y="114.478"/>
+    <velocity dx="3.3634608" dy="-3.683727"/>
+    <color red="0.388295" green="0.475066" blue="0.290628"/>
+  </star>
+  <star>
+    <point x="386.423" y="389.54"/>
+    <velocity dx="-3.858509" dy="3.170073"/>
+    <color red="0.96672" green="0.723273" blue="0.279344"/>
+  </star>
+  <star>
+    <point x="128.464" y="120.313"/>
+    <velocity dx="-3.947709" dy="-2.890637"/>
+    <color red="0.270119" green="0.959304" blue="0.939734"/>
+  </star>
+  <star>
+    <point x="377.665" y="373.261"/>
+    <velocity dx="2.8055809" dy="4.268603"/>
+    <color red="0.738266" green="0.802652" blue="0.326815"/>
+  </star>
+  <star>
+    <point x="125.018" y="125.028"/>
+    <velocity dx="-4.148519" dy="2.760103"/>
+    <color red="0.967727" green="0.27092" blue="0.734947"/>
+  </star>
+  <star>
+    <point x="381.242" y="380.035"/>
+    <velocity dx="-3.0660691" dy="3.972803"/>
+    <color red="0.8184" green="0.632153" blue="0.374332"/>
+  </star>
+  <star>
+    <point x="127.019" y="100.203"/>
+    <velocity dx="5.056761" dy="0.48702306"/>
+    <color red="0.426267" green="0.288705" blue="0.704115"/>
+  </star>
+  <star>
+    <point x="390.799" y="359.393"/>
+    <velocity dx="3.5871208" dy="3.638273"/>
+    <color red="0.622265" green="0.692305" blue="0.921628"/>
+  </star>
+  <star>
+    <point x="138.094" y="128.77"/>
+    <velocity dx="-1.3101691" dy="4.885993"/>
+    <color red="0.257439" green="0.5403" blue="0.607845"/>
+  </star>
+  <star>
+    <point x="380.856" y="390.627"/>
+    <velocity dx="-4.608809" dy="1.835693"/>
+    <color red="0.934606" green="0.753212" blue="0.779328"/>
+  </star>
+  <star>
+    <point x="117.333" y="128.792"/>
+    <velocity dx="-2.1435492" dy="-4.400517"/>
+    <color red="0.395688" green="0.733551" blue="0.345973"/>
+  </star>
+  <star>
+    <point x="373.792" y="387.837"/>
+    <velocity dx="-4.904749" dy="-0.38719594"/>
+    <color red="0.816065" green="0.905766" blue="0.725494"/>
+  </star>
+  <star>
+    <point x="125.733" y="143.043"/>
+    <velocity dx="-4.9226193" dy="0.28415605"/>
+    <color red="0.50441" green="0.287652" blue="0.61375"/>
+  </star>
+  <star>
+    <point x="386.188" y="366.598"/>
+    <velocity dx="3.075661" dy="4.079393"/>
+    <color red="0.509423" green="0.342883" blue="0.411641"/>
+  </star>
+  <star>
+    <point x="132.776" y="131.898"/>
+    <velocity dx="-3.2446392" dy="3.821713"/>
+    <color red="0.63229" green="0.864635" blue="0.558039"/>
+  </star>
+  <star>
+    <point x="391.251" y="357.831"/>
+    <velocity dx="3.704481" dy="3.518373"/>
+    <color red="0.595828" green="0.640828" blue="0.519059"/>
+  </star>
+  <star>
+    <point x="121.592" y="131.608"/>
+    <velocity dx="-4.370519" dy="-2.210707"/>
+    <color red="0.369526" green="0.650281" blue="0.68363"/>
+  </star>
+  <star>
+    <point x="374.123" y="377.056"/>
+    <velocity dx="-4.525959" dy="-1.880227"/>
+    <color red="0.40109" green="0.790361" blue="0.41512"/>
+  </star>
+  <star>
+    <point x="130.426" y="139.959"/>
+    <velocity dx="-4.627049" dy="1.786213"/>
+    <color red="0.254051" green="0.635655" blue="0.509491"/>
+  </star>
+  <star>
+    <point x="384.265" y="380.275"/>
+    <velocity dx="-2.400469" dy="4.426383"/>
+    <color red="0.901852" green="0.478111" blue="0.309442"/>
+  </star>
+  <star>
+    <point x="116.683" y="127.458"/>
+    <velocity dx="-1.3437592" dy="-4.713807"/>
+    <color red="0.927854" green="0.398228" blue="0.725013"/>
+  </star>
+  <star>
+    <point x="386.378" y="387.006"/>
+    <velocity dx="-3.5559793" dy="3.520463"/>
+    <color red="0.881916" green="0.367695" blue="0.410199"/>
+  </star>
+  <star>
+    <point x="120.784" y="120.833"/>
+    <velocity dx="3.588141" dy="-3.4748769"/>
+    <color red="0.793062" green="0.633114" blue="0.846187"/>
+  </star>
+  <star>
+    <point x="384.653" y="366.318"/>
+    <velocity dx="3.4169009" dy="3.798723"/>
+    <color red="0.588412" green="0.881069" blue="0.83037"/>
+  </star>
+  <star>
+    <point x="110.704" y="137.518"/>
+    <velocity dx="-3.220549" dy="-3.680567"/>
+    <color red="0.418394" green="0.434393" blue="0.62199"/>
+  </star>
+  <star>
+    <point x="375.115" y="375.112"/>
+    <velocity dx="3.561451" dy="-3.501057"/>
+    <color red="0.888188" green="0.979743" blue="0.743873"/>
+  </star>
+  <star>
+    <point x="143.397" y="119.943"/>
+    <velocity dx="1.3985509" dy="4.9023533"/>
+    <color red="0.945341" green="0.576304" blue="0.690474"/>
+  </star>
+  <star>
+    <point x="383.826" y="362.94"/>
+    <velocity dx="4.108151" dy="3.0341032"/>
+    <color red="0.923872" green="0.695967" blue="0.542039"/>
+  </star>
+  <star>
+    <point x="119.144" y="126.118"/>
+    <velocity dx="-0.86410713" dy="-4.830157"/>
+    <color red="0.994346" green="0.794504" blue="0.985214"/>
+  </star>
+  <star>
+    <point x="373.595" y="372.491"/>
+    <velocity dx="4.435771" dy="-2.361857"/>
+    <color red="0.270302" green="0.664129" blue="0.9897"/>
+  </star>
+  <star>
+    <point x="117.222" y="137.014"/>
+    <velocity dx="-4.123949" dy="-2.636057"/>
+    <color red="0.321093" green="0.817324" blue="0.641331"/>
+  </star>
+  <star>
+    <point x="386.97" y="392.492"/>
+    <velocity dx="-4.053019" dy="2.904983"/>
+    <color red="0.340686" green="0.901852" blue="0.881367"/>
+  </star>
+  <star>
+    <point x="113.465" y="108.776"/>
+    <velocity dx="4.148251" dy="-2.816117"/>
+    <color red="0.472869" green="0.647031" blue="0.901921"/>
+  </star>
+  <star>
+    <point x="374.099" y="365.838"/>
+    <velocity dx="5.049251" dy="-0.40819195"/>
+    <color red="0.542795" green="0.341327" blue="0.697729"/>
+  </star>
+  <star>
+    <point x="104.24" y="122.7"/>
+    <velocity dx="0.62391186" dy="-4.8883967"/>
+    <color red="0.944609" green="0.841105" blue="0.524209"/>
+  </star>
+  <star>
+    <point x="357.133" y="367.972"/>
+    <velocity dx="1.9036108" dy="-4.571747"/>
+    <color red="0.435331" green="0.860607" blue="0.261673"/>
+  </star>
+  <star>
+    <point x="118.623" y="126.284"/>
+    <velocity dx="-0.91397214" dy="-4.820377"/>
+    <color red="0.585253" green="0.543367" blue="0.935865"/>
+  </star>
+  <star>
+    <point x="382.485" y="368.068"/>
+    <velocity dx="3.4707308" dy="3.749603"/>
+    <color red="0.384152" green="0.814669" blue="0.894688"/>
+  </star>
+  <star>
+    <point x="136.064" y="101.606"/>
+    <velocity dx="4.593281" dy="2.218813"/>
+    <color red="0.504089" green="0.765366" blue="0.891209"/>
+  </star>
+  <star>
+    <point x="371.24" y="376.941"/>
+    <velocity dx="-2.2205591" dy="-4.361597"/>
+    <color red="0.718421" green="0.566897" blue="0.822954"/>
+  </star>
+  <star>
+    <point x="131.381" y="127.152"/>
+    <velocity dx="-1.5242991" dy="4.8191032"/>
+    <color red="0.976836" green="0.9176" blue="0.87743"/>
+  </star>
+  <star>
+    <point x="377.617" y="345.07"/>
+    <velocity dx="5.0542607" dy="0.51663905"/>
+    <color red="0.886952" green="0.520203" blue="0.333773"/>
+  </star>
+  <star>
+    <point x="130.089" y="135.5"/>
+    <velocity dx="-4.4260592" dy="2.262053"/>
+    <color red="0.601962" green="0.590701" blue="0.770928"/>
+  </star>
+  <star>
+    <point x="373.644" y="370.834"/>
+    <velocity dx="4.827681" dy="-1.466537"/>
+    <color red="0.864498" green="0.648289" blue="0.9317"/>
+  </star>
+  <star>
+    <point x="129.802" y="129.935"/>
+    <velocity dx="-3.5101593" dy="3.568183"/>
+    <color red="0.706954" green="0.586718" blue="0.493469"/>
+  </star>
+  <star>
+    <point x="357.568" y="356.078"/>
+    <velocity dx="3.7506108" dy="-3.306587"/>
+    <color red="0.307863" green="0.776879" blue="0.744812"/>
+  </star>
+  <star>
+    <point x="129.507" y="128.894"/>
+    <velocity dx="-3.195589" dy="3.8646631"/>
+    <color red="0.754585" green="0.950446" blue="0.668546"/>
+  </star>
+  <star>
+    <point x="391.456" y="367.584"/>
+    <velocity dx="2.1275308" dy="4.6396933"/>
+    <color red="0.712287" green="0.865024" blue="0.431005"/>
+  </star>
+  <star>
+    <point x="138.514" y="126.164"/>
+    <velocity dx="-0.35573915" dy="5.062753"/>
+    <color red="0.4991" green="0.500473" blue="0.27749"/>
+  </star>
+  <star>
+    <point x="369.419" y="385.689"/>
+    <velocity dx="-4.3590393" dy="-2.232837"/>
+    <color red="0.817598" green="0.536363" blue="0.83417"/>
+  </star>
+  <star>
+    <point x="124.025" y="105.771"/>
+    <velocity dx="5.0668406" dy="-0.17205395"/>
+    <color red="0.642499" green="0.860744" blue="0.315851"/>
+  </star>
+  <star>
+    <point x="374.895" y="376.445"/>
+    <velocity dx="-4.913519" dy="-0.28209895"/>
+    <color red="0.264534" green="0.860286" blue="0.640507"/>
+  </star>
+  <star>
+    <point x="113.493" y="113.617"/>
+    <velocity dx="3.589501" dy="-3.473527"/>
+    <color red="0.490768" green="0.74147" blue="0.699561"/>
+  </star>
+  <star>
+    <point x="369.683" y="398.566"/>
+    <velocity dx="-4.804139" dy="-1.019257"/>
+    <color red="0.250938" green="0.883244" blue="0.784753"/>
+  </star>
+  <star>
+    <point x="126.084" y="117.698"/>
+    <velocity dx="5.019031" dy="0.81557906"/>
+    <color red="0.860218" green="0.720641" blue="0.921171"/>
+  </star>
+  <star>
+    <point x="369.647" y="377.94"/>
+    <velocity dx="-2.333949" dy="-4.301197"/>
+    <color red="0.438055" green="0.909978" blue="0.606403"/>
+  </star>
+  <star>
+    <point x="125.508" y="124.887"/>
+    <velocity dx="-1.0133891" dy="-4.799297"/>
+    <color red="0.983543" green="0.525079" blue="0.706198"/>
+  </star>
+  <star>
+    <point x="358.031" y="370.896"/>
+    <velocity dx="1.2486309" dy="-4.778697"/>
+    <color red="0.356708" green="0.534829" blue="0.75605"/>
+  </star>
+  <star>
+    <point x="103.579" y="123.451"/>
+    <velocity dx="0.43392286" dy="-4.905787"/>
+    <color red="0.666326" green="0.811899" blue="0.669324"/>
+  </star>
+  <star>
+    <point x="373.452" y="358.713"/>
+    <velocity dx="5.050821" dy="-0.39196894"/>
+    <color red="0.813707" green="0.422857" blue="0.851474"/>
+  </star>
+  <star>
+    <point x="112.95" y="110.979"/>
+    <velocity dx="3.865331" dy="-3.177667"/>
+    <color red="0.943052" green="0.449522" blue="0.720595"/>
+  </star>
+  <star>
+    <point x="373.633" y="369.98"/>
+    <velocity dx="4.8976507" dy="-1.232297"/>
+    <color red="0.797845" green="0.341281" blue="0.884091"/>
+  </star>
+  <star>
+    <point x="129.824" y="118.636"/>
+    <velocity dx="4.0577507" dy="3.101763"/>
+    <color red="0.98352" green="0.549112" blue="0.721763"/>
+  </star>
+  <star>
+    <point x="392.033" y="392.416"/>
+    <velocity dx="-3.5014591" dy="3.5771031"/>
+    <color red="0.386418" green="0.940535" blue="0.375019"/>
+  </star>
+  <star>
+    <point x="136.848" y="104.633"/>
+    <velocity dx="4.3951306" dy="2.595433"/>
+    <color red="0.999016" green="0.995811" blue="0.39246"/>
+  </star>
+  <star>
+    <point x="383.422" y="375.668"/>
+    <velocity dx="-0.32229614" dy="5.065523"/>
+    <color red="0.651288" green="0.285592" blue="0.53151"/>
+  </star>
+  <star>
+    <point x="119.784" y="145.516"/>
+    <velocity dx="-4.772609" dy="-1.150707"/>
+    <color red="0.648541" green="0.729774" blue="0.716521"/>
+  </star>
+  <star>
+    <point x="378.905" y="378.235"/>
+    <velocity dx="-3.1165392" dy="3.931543"/>
+    <color red="0.565203" green="0.887318" blue="0.402989"/>
+  </star>
+  <star>
+    <point x="112.325" y="144.038"/>
+    <velocity dx="-4.0886893" dy="-2.6897569"/>
+    <color red="0.445151" green="0.277718" blue="0.848109"/>
+  </star>
+  <star>
+    <point x="373.388" y="393.497"/>
+    <velocity dx="-4.9078693" dy="-0.35282096"/>
+    <color red="0.658063" green="0.983543" blue="0.537461"/>
+  </star>
+  <star>
+    <point x="133.782" y="119.066"/>
+    <velocity dx="2.872671" dy="4.224053"/>
+    <color red="0.912152" green="0.534051" blue="0.268105"/>
+  </star>
+  <star>
+    <point x="376.006" y="371.37"/>
+    <velocity dx="4.8916807" dy="1.4164131"/>
+    <color red="0.673101" green="0.820437" blue="0.637761"/>
+  </star>
+  <star>
+    <point x="132.066" y="127.175"/>
+    <velocity dx="-1.3974591" dy="4.860003"/>
+    <color red="0.989334" green="0.792009" blue="0.940352"/>
+  </star>
+  <star>
+    <point x="389.855" y="358.45"/>
+    <velocity dx="3.7941508" dy="3.421093"/>
+    <color red="0.973266" green="0.683721" blue="0.967727"/>
+  </star>
+  <star>
+    <point x="109.659" y="139.576"/>
+    <velocity dx="-3.3707092" dy="-3.543597"/>
+    <color red="0.93923" green="0.525033" blue="0.467719"/>
+  </star>
+  <star>
+    <point x="373.95" y="376.019"/>
+    <velocity dx="3.554231" dy="3.670463"/>
+    <color red="0.947287" green="0.429884" blue="0.758408"/>
+  </star>
+  <star>
+    <point x="113.185" y="131.366"/>
+    <velocity dx="-2.2985692" dy="-4.320447"/>
+    <color red="0.753418" green="0.418027" blue="0.998604"/>
+  </star>
+  <star>
+    <point x="380.87" y="362.336"/>
+    <velocity dx="4.609541" dy="2.184083"/>
+    <color red="0.416036" green="0.517525" blue="0.364513"/>
+  </star>
+  <star>
+    <point x="130.522" y="124.401"/>
+    <velocity dx="0.6129519" dy="5.051983"/>
+    <color red="0.808672" green="0.398549" blue="0.882992"/>
+  </star>
+  <star>
+    <point x="374.847" y="374.763"/>
+    <velocity dx="4.277751" dy="-2.6247768"/>
+    <color red="0.288842" green="0.788484" blue="0.420476"/>
+  </star>
+  <star>
+    <point x="102.955" y="120.22"/>
+    <velocity dx="1.1327509" dy="-4.805267"/>
+    <color red="0.273347" green="0.668111" blue="0.578822"/>
+  </star>
+  <star>
+    <point x="370.331" y="354.491"/>
+    <velocity dx="4.9485407" dy="-1.0286069"/>
+    <color red="0.969626" green="0.749207" blue="0.996773"/>
+  </star>
+  <star>
+    <point x="125.62" y="125.354"/>
+    <velocity dx="2.551571" dy="-4.261387"/>
+    <color red="0.763489" green="0.483306" blue="0.308161"/>
+  </star>
+  <star>
+    <point x="389.998" y="377.576"/>
+    <velocity dx="-0.77307117" dy="5.009043"/>
+    <color red="0.763123" green="0.601871" blue="0.756142"/>
+  </star>
+  <star>
+    <point x="136.183" y="128.5"/>
+    <velocity dx="-1.4203491" dy="4.852893"/>
+    <color red="0.999176" green="0.687292" blue="0.713569"/>
+  </star>
+  <star>
+    <point x="373.847" y="358.958"/>
+    <velocity dx="5.060391" dy="-0.27731696"/>
+    <color red="0.281266" green="0.775758" blue="0.609882"/>
+  </star>
+  <star>
+    <point x="111.622" y="109.226"/>
+    <velocity dx="3.8865008" dy="-3.1528769"/>
+    <color red="0.460715" green="0.990799" blue="0.514115"/>
+  </star>
+  <star>
+    <point x="355.614" y="379.347"/>
+    <velocity dx="-1.0208791" dy="-4.797627"/>
+    <color red="0.849368" green="0.708441" blue="0.624073"/>
+  </star>
+  <star>
+    <point x="125.57" y="128.08"/>
+    <velocity dx="-4.843179" dy="0.99147105"/>
+    <color red="0.794939" green="0.253479" blue="0.911901"/>
+  </star>
+  <star>
+    <point x="372.856" y="370.998"/>
+    <velocity dx="4.480911" dy="-2.2794468"/>
+    <color red="0.662343" green="0.627049" blue="0.675825"/>
+  </star>
+  <star>
+    <point x="127.449" y="133.012"/>
+    <velocity dx="-4.7084293" dy="1.542523"/>
+    <color red="0.471427" green="0.515282" blue="0.998169"/>
+  </star>
+  <star>
+    <point x="385.542" y="378.375"/>
+    <velocity dx="-1.4514291" dy="4.843053"/>
+    <color red="0.690977" green="0.329493" blue="0.359523"/>
+  </star>
+  <star>
+    <point x="136.712" y="116.721"/>
+    <velocity dx="2.959431" dy="4.164093"/>
+    <color red="0.688803" green="0.527413" blue="0.659505"/>
+  </star>
+  <star>
+    <point x="393.754" y="359.003"/>
+    <velocity dx="3.318101" dy="3.885273"/>
+    <color red="0.838221" green="0.965758" blue="0.393147"/>
+  </star>
+  <star>
+    <point x="121.73" y="126.693"/>
+    <velocity dx="2.3717608" dy="4.521563"/>
+    <color red="0.780839" green="0.533891" blue="0.484245"/>
+  </star>
+  <star>
+    <point x="369.307" y="376.809"/>
+    <velocity dx="-1.4409292" dy="-4.684017"/>
+    <color red="0.595393" green="0.819086" blue="0.274377"/>
+  </star>
+  <star>
+    <point x="129.187" y="125.962"/>
+    <velocity dx="1.1926409" dy="-4.791897"/>
+    <color red="0.372936" green="0.302576" blue="0.918584"/>
+  </star>
+  <star>
+    <point x="376.536" y="372.987"/>
+    <velocity dx="-3.902229" dy="-2.951207"/>
+    <color red="0.448378" green="0.837329" blue="0.436979"/>
+  </star>
+  <star>
+    <point x="126.22" y="125.334"/>
+    <velocity dx="-1.2464792" dy="4.903883"/>
+    <color red="0.788163" green="0.906568" blue="0.672895"/>
+  </star>
+  <star>
+    <point x="390.619" y="368.169"/>
+    <velocity dx="2.076711" dy="4.662263"/>
+    <color red="0.284059" green="0.414068" blue="0.656987"/>
+  </star>
+  <star>
+    <point x="127.872" y="129.55"/>
+    <velocity dx="-4.1546793" dy="2.7503831"/>
+    <color red="0.453619" green="0.505303" blue="0.377926"/>
+  </star>
+  <star>
+    <point x="356.778" y="355.259"/>
+    <velocity dx="3.747371" dy="-3.310117"/>
+    <color red="0.796381" green="0.670034" blue="0.708991"/>
+  </star>
+  <star>
+    <point x="116.939" y="131.398"/>
+    <velocity dx="-3.0349991" dy="-3.8352768"/>
+    <color red="0.806681" green="0.626019" blue="0.991165"/>
+  </star>
+  <star>
+    <point x="365.891" y="386.362"/>
+    <velocity dx="-3.827809" dy="-3.046367"/>
+    <color red="0.392598" green="0.984161" blue="0.272317"/>
+  </star>
+  <star>
+    <point x="127.625" y="123.263"/>
+    <velocity dx="-2.6858993" dy="-4.088577"/>
+    <color red="0.951201" green="0.444739" blue="0.702879"/>
+  </star>
+  <star>
+    <point x="383.532" y="366.53"/>
+    <velocity dx="3.5959709" dy="3.629503"/>
+    <color red="0.34975" green="0.775002" blue="0.33739"/>
+  </star>
+  <star>
+    <point x="120.228" y="128.264"/>
+    <velocity dx="-2.7495391" dy="-4.045767"/>
+    <color red="0.563761" green="0.817804" blue="0.842662"/>
+  </star>
+  <star>
+    <point x="381.604" y="387.47"/>
+    <velocity dx="-4.345429" dy="2.421103"/>
+    <color red="0.970634" green="0.531831" blue="0.861888"/>
+  </star>
+  <star>
+    <point x="106.089" y="124.879"/>
+    <velocity dx="0.105379656" dy="-4.918707"/>
+    <color red="0.550005" green="0.81286" blue="0.535356"/>
+  </star>
+  <star>
+    <point x="380.063" y="366.452"/>
+    <velocity dx="4.375231" dy="2.629333"/>
+    <color red="0.740188" green="0.596103" blue="0.677015"/>
+  </star>
+  <star>
+    <point x="137.566" y="133.963"/>
+    <velocity dx="-2.8301091" dy="4.151873"/>
+    <color red="0.700797" green="0.990295" blue="0.357578"/>
+  </star>
+  <star>
+    <point x="351.324" y="387.103"/>
+    <velocity dx="-2.202649" dy="-4.370797"/>
+    <color red="0.731788" green="0.692442" blue="0.393765"/>
+  </star>
+  <star>
+    <point x="123.856" y="140.62"/>
+    <velocity dx="-4.913379" dy="-0.28401095"/>
+    <color red="0.348514" green="0.684385" blue="0.743805"/>
+  </star>
+  <star>
+    <point x="381.252" y="366.677"/>
+    <velocity dx="4.071031" dy="3.084163"/>
+    <color red="0.763398" green="0.960105" blue="0.809198"/>
+  </star>
+  <star>
+    <point x="135.29" y="131.666"/>
+    <velocity dx="-2.645399" dy="4.277493"/>
+    <color red="0.523316" green="0.534646" blue="0.392666"/>
+  </star>
+  <star>
+    <point x="375.201" y="366.787"/>
+    <velocity dx="5.0717607" dy="0.20366405"/>
+    <color red="0.803842" green="0.7341" blue="0.562593"/>
+  </star>
+  <star>
+    <point x="136.253" y="133.359"/>
+    <velocity dx="-2.908389" dy="4.094883"/>
+    <color red="0.859279" green="0.51693" blue="0.673261"/>
+  </star>
+  <star>
+    <point x="390.485" y="357.234"/>
+    <velocity dx="3.8424308" dy="3.366513"/>
+    <color red="0.879147" green="0.326495" blue="0.541833"/>
+  </star>
+  <star>
+    <point x="123.264" y="123.854"/>
+    <velocity dx="2.8276207" dy="-4.091757"/>
+    <color red="0.250824" green="0.974868" blue="0.281266"/>
+  </star>
+  <star>
+    <point x="366.778" y="381.551"/>
+    <velocity dx="-3.042499" dy="-3.8293068"/>
+    <color red="0.978622" green="0.557718" blue="0.789583"/>
+  </star>
+  <star>
+    <point x="136.041" y="126.942"/>
+    <velocity dx="-0.79290813" dy="5.005593"/>
+    <color red="0.508827" green="0.650899" blue="0.395344"/>
+  </star>
+  <star>
+    <point x="360.985" y="385.207"/>
+    <velocity dx="-2.8701591" dy="-3.960617"/>
+    <color red="0.961295" green="0.787683" blue="0.409467"/>
+  </star>
+  <star>
+    <point x="115.83" y="131.134"/>
+    <velocity dx="-2.706659" dy="-4.074777"/>
+    <color red="0.266938" green="0.717734" blue="0.833254"/>
+  </star>
+  <star>
+    <point x="383.702" y="390.55"/>
+    <velocity dx="-4.289949" dy="2.522983"/>
+    <color red="0.461974" green="0.697089" blue="0.47248"/>
+  </star>
+  <star>
+    <point x="117.179" y="115.531"/>
+    <velocity dx="3.928341" dy="-3.102887"/>
+    <color red="0.887822" green="0.559458" blue="0.70819"/>
+  </star>
+  <star>
+    <point x="370.701" y="372.511"/>
+    <velocity dx="2.5781708" dy="-4.246097"/>
+    <color red="0.2977" green="0.568751" blue="0.923139"/>
+  </star>
+  <star>
+    <point x="134.518" y="120.424"/>
+    <velocity dx="2.2396607" dy="4.587493"/>
+    <color red="0.36932" green="0.302873" blue="0.585002"/>
+  </star>
+  <star>
+    <point x="365.214" y="374.866"/>
+    <velocity dx="0.14181046" dy="-4.918337"/>
+    <color red="0.873836" green="0.818766" blue="0.485641"/>
+  </star>
+  <star>
+    <point x="128.411" y="128.769"/>
+    <velocity dx="-3.634159" dy="3.436053"/>
+    <color red="0.750923" green="0.348651" blue="0.886517"/>
+  </star>
+  <star>
+    <point x="380.051" y="380.563"/>
+    <velocity dx="-3.628359" dy="3.4424431"/>
+    <color red="0.590381" green="0.777726" blue="0.320383"/>
+  </star>
+  <star>
+    <point x="127.864" y="129.01"/>
+    <velocity dx="-3.9953291" dy="2.987483"/>
+    <color red="0.519745" green="0.902722" blue="0.299577"/>
+  </star>
+  <star>
+    <point x="365.491" y="381.25"/>
+    <velocity dx="-2.673099" dy="-4.097027"/>
+    <color red="0.998238" green="0.472091" blue="0.92996"/>
+  </star>
+  <star>
+    <point x="118.775" y="146.918"/>
+    <velocity dx="-4.7364893" dy="-1.2849569"/>
+    <color red="0.51693" green="0.757332" blue="0.931608"/>
+  </star>
+  <star>
+    <point x="372.575" y="377.985"/>
+    <velocity dx="-3.8073392" dy="-3.071727"/>
+    <color red="0.705351" green="0.905377" blue="0.565477"/>
+  </star>
+  <star>
+    <point x="121.634" y="119.786"/>
+    <velocity dx="4.274111" dy="-2.6304169"/>
+    <color red="0.843944" green="0.572481" blue="0.716521"/>
+  </star>
+  <star>
+    <point x="369.635" y="375.242"/>
+    <velocity dx="-0.15245114" dy="-4.913707"/>
+    <color red="0.533158" green="0.589305" blue="0.382847"/>
+  </star>
+  <star>
+    <point x="118.641" y="124.798"/>
+    <velocity dx="0.23191085" dy="-4.916287"/>
+    <color red="0.768662" green="0.907094" blue="0.821306"/>
+  </star>
+  <star>
+    <point x="377.833" y="379.882"/>
+    <velocity dx="-4.251499" dy="2.5904632"/>
+    <color red="0.422674" green="0.325259" blue="0.599078"/>
+  </star>
+  <star>
+    <point x="110.049" y="109.16"/>
+    <velocity dx="3.709421" dy="-3.350767"/>
+    <color red="0.881802" green="0.250229" blue="0.301958"/>
+  </star>
+  <star>
+    <point x="382.121" y="373.178"/>
+    <velocity dx="1.3123609" dy="4.925223"/>
+    <color red="0.840808" green="0.485389" blue="0.398366"/>
+  </star>
+  <star>
+    <point x="124.746" y="120.398"/>
+    <velocity dx="5.065681" dy="-0.19407494"/>
+    <color red="0.753006" green="0.552431" blue="0.510018"/>
+  </star>
+  <star>
+    <point x="381.975" y="377.493"/>
+    <velocity dx="-1.6094291" dy="4.789543"/>
+    <color red="0.436544" green="0.543847" blue="0.838542"/>
+  </star>
+  <star>
+    <point x="133.663" y="110.546"/>
+    <velocity dx="4.361981" dy="2.651573"/>
+    <color red="0.337207" green="0.756829" blue="0.498573"/>
+  </star>
+  <star>
+    <point x="362.58" y="365.363"/>
+    <velocity dx="3.138531" dy="-3.869017"/>
+    <color red="0.447325" green="0.858158" blue="0.257073"/>
+  </star>
+  <star>
+    <point x="125.785" y="125.38"/>
+    <velocity dx="2.2513108" dy="-4.419487"/>
+    <color red="0.630894" green="0.830576" blue="0.678709"/>
+  </star>
+  <star>
+    <point x="392.853" y="390.947"/>
+    <velocity dx="-3.2575293" dy="3.8102431"/>
+    <color red="0.855159" green="0.700339" blue="0.927671"/>
+  </star>
+  <star>
+    <point x="116.072" y="113.67"/>
+    <velocity dx="4.000581" dy="-3.013337"/>
+    <color red="0.578204" green="0.545953" blue="0.475616"/>
+  </star>
+  <star>
+    <point x="379.779" y="364.328"/>
+    <velocity dx="4.636581" dy="2.124753"/>
+    <color red="0.292962" green="0.788232" blue="0.716132"/>
+  </star>
+  <star>
+    <point x="134.078" y="139.18"/>
+    <velocity dx="-4.137699" dy="2.7770832"/>
+    <color red="0.727371" green="0.511643" blue="0.484931"/>
+  </star>
+  <star>
+    <point x="389.949" y="378.52"/>
+    <velocity dx="-1.0727291" dy="4.948093"/>
+    <color red="0.450781" green="0.566736" blue="0.4869"/>
+  </star>
+  <star>
+    <point x="132.8" y="125.631"/>
+    <velocity dx="-0.32994214" dy="5.0649133"/>
+    <color red="0.886814" green="0.954062" blue="0.878941"/>
+  </star>
+  <star>
+    <point x="366.831" y="370.568"/>
+    <velocity dx="2.4577408" dy="-4.3136067"/>
+    <color red="0.73204" green="0.739067" blue="0.259201"/>
+  </star>
+  <star>
+    <point x="124.665" y="129.952"/>
+    <velocity dx="-4.915339" dy="-0.25627595"/>
+    <color red="0.78148" green="0.498505" blue="0.562777"/>
+  </star>
+  <star>
+    <point x="384.92" y="381.927"/>
+    <velocity dx="-2.789369" dy="4.180623"/>
+    <color red="0.409764" green="0.547945" blue="0.613247"/>
+  </star>
+  <star>
+    <point x="114.314" y="125.226"/>
+    <velocity dx="-0.03267414" dy="-4.917687"/>
+    <color red="0.709082" green="0.950491" blue="0.830851"/>
+  </star>
+  <star>
+    <point x="357.491" y="378.533"/>
+    <velocity dx="-0.9158511" dy="-4.819997"/>
+    <color red="0.782922" green="0.306902" blue="0.346568"/>
+  </star>
+  <star>
+    <point x="127.763" y="143.344"/>
+    <velocity dx="-4.8709493" dy="0.82600904"/>
+    <color red="0.696356" green="0.826891" blue="0.772897"/>
+  </star>
+  <star>
+    <point x="382.15" y="388.08"/>
+    <velocity dx="-4.3140793" dy="2.479363"/>
+    <color red="0.58253" green="0.931562" blue="0.880245"/>
+  </star>
+  <star>
+    <point x="125.336" y="131.954"/>
+    <velocity dx="-4.920919" dy="0.32246906"/>
+    <color red="0.405232" green="0.887318" blue="0.930326"/>
+  </star>
+  <star>
+    <point x="365.441" y="360.884"/>
+    <velocity dx="4.2133007" dy="-2.7223868"/>
+    <color red="0.378018" green="0.470809" blue="0.915105"/>
+  </star>
+  <star>
+    <point x="145.451" y="124.984"/>
+    <velocity dx="0.07709614" dy="5.081193"/>
+    <color red="0.539224" green="0.665296" blue="0.952483"/>
+  </star>
+  <star>
+    <point x="373.83" y="367.757"/>
+    <velocity dx="5.0092707" dy="-0.71619695"/>
+    <color red="0.98352" green="0.388089" blue="0.838015"/>
+  </star>
+  <star>
+    <point x="125.905" y="124.948"/>
+    <velocity dx="0.35977486" dy="5.0729733"/>
+    <color red="0.499512" green="0.999496" blue="0.252838"/>
+  </star>
+  <star>
+    <point x="380.62" y="371.147"/>
+    <velocity dx="2.900411" dy="4.205173"/>
+    <color red="0.363872" green="0.592669" blue="0.378109"/>
+  </star>
+  <star>
+    <point x="129.63" y="129.319"/>
+    <velocity dx="-3.3375492" dy="3.7372031"/>
+    <color red="0.54133" green="0.565043" blue="0.915357"/>
+  </star>
+  <star>
+    <point x="377.472" y="369.798"/>
+    <velocity dx="4.589171" dy="2.227473"/>
+    <color red="0.291223" green="0.470809" blue="0.763192"/>
+  </star>
+  <star>
+    <point x="140.132" y="132.951"/>
+    <velocity dx="-2.252449" dy="4.507373"/>
+    <color red="0.930189" green="0.654744" blue="0.850513"/>
+  </star>
+  <star>
+    <point x="357.162" y="366.091"/>
+    <velocity dx="2.307241" dy="-4.391987"/>
+    <color red="0.251007" green="0.66715" blue="0.875645"/>
+  </star>
+  <star>
+    <point x="121.439" y="108.202"/>
+    <velocity dx="4.964591" dy="-0.95556694"/>
+    <color red="0.34801" green="0.960311" blue="0.451811"/>
+  </star>
+  <star>
+    <point x="372.625" y="372.94"/>
+    <velocity dx="-3.2028391" dy="3.858383"/>
+    <color red="0.348308" green="0.365818" blue="0.909017"/>
+  </star>
+  <star>
+    <point x="124.631" y="125.176"/>
+    <velocity dx="-2.077999" dy="-4.432347"/>
+    <color red="0.2996" green="0.60361" blue="0.2519"/>
+  </star>
+  <star>
+    <point x="358.517" y="360.416"/>
+    <velocity dx="3.3865008" dy="-3.663467"/>
+    <color red="0.46408" green="0.571772" blue="0.774133"/>
+  </star>
+  <star>
+    <point x="110.818" y="123.484"/>
+    <velocity dx="0.6048499" dy="-4.890467"/>
+    <color red="0.518647" green="0.667997" blue="0.828814"/>
+  </star>
+  <star>
+    <point x="390.109" y="354.926"/>
+    <velocity dx="4.068151" dy="3.0879931"/>
+    <color red="0.911397" green="0.642041" blue="0.755318"/>
+  </star>
+  <star>
+    <point x="110.463" y="118.194"/>
+    <velocity dx="2.193311" dy="-4.447097"/>
+    <color red="0.374172" green="0.729476" blue="0.462249"/>
+  </star>
+  <star>
+    <point x="364.812" y="369.831"/>
+    <velocity dx="2.335501" dy="-4.377757"/>
+    <color red="0.841746" green="0.816866" blue="0.666715"/>
+  </star>
+  <star>
+    <point x="133.884" y="110.85"/>
+    <velocity dx="4.307841" dy="2.739833"/>
+    <color red="0.276688" green="0.637944" blue="0.289804"/>
+  </star>
+  <star>
+    <point x="378.911" y="371.324"/>
+    <velocity dx="3.497371" dy="3.7247531"/>
+    <color red="0.401181" green="0.251144" blue="0.508438"/>
+  </star>
+  <star>
+    <point x="125.355" y="125.31"/>
+    <velocity dx="3.366351" dy="-3.681197"/>
+    <color red="0.834445" green="0.798509" blue="0.463279"/>
+  </star>
+  <star>
+    <point x="369.207" y="371.252"/>
+    <velocity dx="2.789101" dy="-4.116927"/>
+    <color red="0.636731" green="0.295526" blue="0.372982"/>
+  </star>
+  <star>
+    <point x="103.269" y="109.964"/>
+    <velocity dx="2.918181" dy="-4.030547"/>
+    <color red="0.509651" green="0.952689" blue="0.804827"/>
+  </star>
+  <star>
+    <point x="368.099" y="367.48"/>
+    <velocity dx="3.7571008" dy="-3.299527"/>
+    <color red="0.402463" green="0.277718" blue="0.351306"/>
+  </star>
+  <star>
+    <point x="124.037" y="131.596"/>
+    <velocity dx="-4.874259" dy="-0.64133596"/>
+    <color red="0.774888" green="0.459662" blue="0.713294"/>
+  </star>
+  <star>
+    <point x="366.997" y="380.932"/>
+    <velocity dx="-2.904159" dy="-3.935647"/>
+    <color red="0.765893" green="0.783723" blue="0.439177"/>
+  </star>
+  <star>
+    <point x="120.643" y="140.023"/>
+    <velocity dx="-4.7288094" dy="-1.311677"/>
+    <color red="0.769097" green="0.827601" blue="0.570444"/>
+  </star>
+  <star>
+    <point x="387.957" y="390.334"/>
+    <velocity dx="-3.7458591" dy="3.3083131"/>
+    <color red="0.41409" green="0.939093" blue="0.443411"/>
+  </star>
+  <star>
+    <point x="140.236" y="103.809"/>
+    <velocity dx="4.1329207" dy="2.999953"/>
+    <color red="0.954131" green="0.744789" blue="0.897206"/>
+  </star>
+  <star>
+    <point x="367.287" y="390.649"/>
+    <velocity dx="-4.411529" dy="-2.129387"/>
+    <color red="0.810068" green="0.940191" blue="0.638058"/>
+  </star>
+  <star>
+    <point x="139.048" y="128.169"/>
+    <velocity dx="-1.0269592" dy="4.958643"/>
+    <color red="0.770676" green="0.86095" blue="0.75985"/>
+  </star>
+  <star>
+    <point x="397.967" y="378.384"/>
+    <velocity dx="-0.6556711" dy="5.027773"/>
+    <color red="0.848956" green="0.835429" blue="0.920782"/>
+  </star>
+  <star>
+    <point x="126.06" y="141.74"/>
+    <velocity dx="-4.916749" dy="0.39713606"/>
+    <color red="0.794824" green="0.318461" blue="0.67642"/>
+  </star>
+  <star>
+    <point x="373.021" y="383.786"/>
+    <velocity dx="-4.804559" dy="-1.0173869"/>
+    <color red="0.514206" green="0.806497" blue="0.718947"/>
+  </star>
+  <star>
+    <point x="126.94" y="125.142"/>
+    <velocity dx="0.43870386" dy="-4.905437"/>
+    <color red="0.394086" green="0.7837" blue="0.272729"/>
+  </star>
+  <star>
+    <point x="359.32" y="374.586"/>
+    <velocity dx="0.20507586" dy="-4.917067"/>
+    <color red="0.783998" green="0.699675" blue="0.396031"/>
+  </star>
+  <star>
+    <point x="143.835" y="117.033"/>
+    <velocity dx="2.021221" dy="4.686133"/>
+    <color red="0.633755" green="0.728126" blue="0.438925"/>
+  </star>
+  <star>
+    <point x="381.837" y="353.978"/>
+    <velocity dx="4.8281307" dy="1.6275531"/>
+    <color red="0.537301" green="0.306993" blue="0.407727"/>
+  </star>
+  <star>
+    <point x="124.773" y="124.983"/>
+    <velocity dx="-0.29457313" dy="5.067643"/>
+    <color red="0.433088" green="0.959716" blue="0.98542"/>
+  </star>
+  <star>
+    <point x="364.195" y="383.674"/>
+    <velocity dx="-3.056729" dy="-3.817927"/>
+    <color red="0.960288" green="0.39761" blue="0.458335"/>
+  </star>
+  <star>
+    <point x="136.581" y="126.682"/>
+    <velocity dx="-0.64523613" dy="5.029303"/>
+    <color red="0.971664" green="0.403996" blue="0.549341"/>
+  </star>
+  <star>
+    <point x="389.344" y="372.757"/>
+    <velocity dx="0.84579784" dy="5.021153"/>
+    <color red="0.952437" green="0.748932" blue="0.906888"/>
+  </star>
+  <star>
+    <point x="115.865" y="130.239"/>
+    <velocity dx="-2.4142091" dy="-4.256147"/>
+    <color red="0.345492" green="0.885601" blue="0.250687"/>
+  </star>
+  <star>
+    <point x="389.119" y="384.302"/>
+    <velocity dx="-2.677499" dy="4.256513"/>
+    <color red="0.782899" green="0.427892" blue="0.423452"/>
+  </star>
+  <star>
+    <point x="129.528" y="134.379"/>
+    <velocity dx="-4.429399" dy="2.2551432"/>
+    <color red="0.973426" green="0.659162" blue="0.598735"/>
+  </star>
+  <star>
+    <point x="360.715" y="373.829"/>
+    <velocity dx="0.48171985" dy="-4.9020967"/>
+    <color red="0.496673" green="0.32226" blue="0.39539"/>
+  </star>
+  <star>
+    <point x="129.815" y="140.909"/>
+    <velocity dx="-4.712329" dy="1.5296731"/>
+    <color red="0.50322" green="0.69084" blue="0.648015"/>
+  </star>
+  <star>
+    <point x="369.577" y="370.838"/>
+    <velocity dx="3.117271" dy="-3.885417"/>
+    <color red="0.570948" green="0.421873" blue="0.333636"/>
+  </star>
+  <star>
+    <point x="121.916" y="118.955"/>
+    <velocity dx="4.527111" dy="-2.191087"/>
+    <color red="0.71794" green="0.439451" blue="0.904828"/>
+  </star>
+  <star>
+    <point x="373.094" y="367.797"/>
+    <velocity dx="4.906851" dy="-1.1980369"/>
+    <color red="0.321253" green="0.849826" blue="0.778871"/>
+  </star>
+  <star>
+    <point x="113.729" y="129.539"/>
+    <velocity dx="-1.7944992" dy="-4.556857"/>
+    <color red="0.69219" green="0.3877" blue="0.983337"/>
+  </star>
+  <star>
+    <point x="364.131" y="373.684"/>
+    <velocity dx="0.6743889" dy="-4.882537"/>
+    <color red="0.807733" green="0.64378" blue="0.957793"/>
+  </star>
+  <star>
+    <point x="116.824" y="132.837"/>
+    <velocity dx="-3.3866591" dy="-3.528377"/>
+    <color red="0.448218" green="0.82355" blue="0.261856"/>
+  </star>
+  <star>
+    <point x="374.917" y="375.026"/>
+    <velocity dx="-1.4089091" dy="-4.694077"/>
+    <color red="0.991417" green="0.287217" blue="0.939436"/>
+  </star>
+  <star>
+    <point x="127.696" y="113.788"/>
+    <velocity dx="4.934661" dy="1.2502731"/>
+    <color red="0.862415" green="0.621281" blue="0.789171"/>
+  </star>
+  <star>
+    <point x="389.2" y="377.159"/>
+    <velocity dx="-0.6784281" dy="5.024363"/>
+    <color red="0.640439" green="0.490677" blue="0.791322"/>
+  </star>
+  <star>
+    <point x="124.839" y="107.645"/>
+    <velocity dx="5.073051" dy="0.03493345"/>
+    <color red="0.571314" green="0.522927" blue="0.440641"/>
+  </star>
+  <star>
+    <point x="377.813" y="393.553"/>
+    <velocity dx="-4.8702393" dy="0.83074903"/>
+    <color red="0.986427" green="0.972945" blue="0.485778"/>
+  </star>
+  <star>
+    <point x="100.518" y="124.195"/>
+    <velocity dx="0.23765986" dy="-4.916107"/>
+    <color red="0.377972" green="0.419424" blue="0.324618"/>
+  </star>
+  <star>
+    <point x="372.999" y="376.477"/>
+    <velocity dx="3.0425909" dy="4.104013"/>
+    <color red="0.880474" green="0.742386" blue="0.556185"/>
+  </star>
+  <star>
+    <point x="132.156" y="113.538"/>
+    <velocity dx="4.3144507" dy="2.729263"/>
+    <color red="0.908284" green="0.381886" blue="0.938566"/>
+  </star>
+  <star>
+    <point x="383.056" y="381.456"/>
+    <velocity dx="-3.053359" dy="3.9830132"/>
+    <color red="0.449683" green="0.628193" blue="0.503174"/>
+  </star>
+  <star>
+    <point x="119.31" y="127.151"/>
+    <velocity dx="-1.6944691" dy="-4.5958967"/>
+    <color red="0.267029" green="0.942892" blue="0.575343"/>
+  </star>
+  <star>
+    <point x="363.921" y="373.8"/>
+    <velocity dx="0.61152285" dy="-4.889747"/>
+    <color red="0.253204" green="0.561563" blue="0.950972"/>
+  </star>
+  <star>
+    <point x="122.481" y="133.373"/>
+    <velocity dx="-4.7146893" dy="-1.3594869"/>
+    <color red="0.694319" green="0.37756" blue="0.47953"/>
+  </star>
+  <star>
+    <point x="378.179" y="345.757"/>
+    <velocity dx="5.043971" dy="0.62159806"/>
+    <color red="0.438627" green="0.607044" blue="0.553484"/>
+  </star>
+  <star>
+    <point x="143.443" y="130.15"/>
+    <velocity dx="-1.2714292" dy="4.896983"/>
+    <color red="0.971778" green="0.985145" blue="0.253571"/>
+  </star>
+  <star>
+    <point x="390.03" y="353.403"/>
+    <velocity dx="4.177211" dy="2.937333"/>
+    <color red="0.648129" green="0.493675" blue="0.400746"/>
+  </star>
+  <star>
+    <point x="120.252" y="130.558"/>
+    <velocity dx="-3.7281692" dy="-3.1667469"/>
+    <color red="0.828677" green="0.369869" blue="0.764084"/>
+  </star>
+  <star>
+    <point x="374.018" y="375.19"/>
+    <velocity dx="-0.87822914" dy="-4.827437"/>
+    <color red="0.674772" green="0.64639" blue="0.925062"/>
+  </star>
+  <star>
+    <point x="119.706" y="132.716"/>
+    <velocity dx="-4.049499" dy="-2.747737"/>
+    <color red="0.84843" green="0.722541" blue="0.298067"/>
+  </star>
+  <star>
+    <point x="354.237" y="381.919"/>
+    <velocity dx="-1.5074792" dy="-4.662357"/>
+    <color red="0.368725" green="0.96704" blue="0.307222"/>
+  </star>
+  <star>
+    <point x="131.078" y="118.66"/>
+    <velocity dx="3.6826608" dy="3.5412831"/>
+    <color red="0.874615" green="0.851566" blue="0.469253"/>
+  </star>
+  <star>
+    <point x="382.055" y="378.46"/>
+    <velocity dx="-2.128499" dy="4.570323"/>
+    <color red="0.293626" green="0.365886" blue="0.38287"/>
+  </star>
+  <star>
+    <point x="142.567" y="122.912"/>
+    <velocity dx="0.66343987" dy="5.046243"/>
+    <color red="0.667356" green="0.964248" blue="0.874226"/>
+  </star>
+  <star>
+    <point x="365.54" y="376.295"/>
+    <velocity dx="-0.60488814" dy="-4.8726068"/>
+    <color red="0.882649" green="0.792718" blue="0.548631"/>
+  </star>
+  <star>
+    <point x="125.063" y="120.549"/>
+    <velocity dx="-4.926249" dy="0.010965352"/>
+    <color red="0.559503" green="0.698141" blue="0.498688"/>
+  </star>
+  <star>
+    <point x="390.33" y="377.754"/>
+    <velocity dx="-0.81084317" dy="5.0024133"/>
+    <color red="0.844859" green="0.76809" blue="0.668432"/>
+  </star>
+  <star>
+    <point x="127.469" y="129.846"/>
+    <velocity dx="-4.381669" dy="2.3513331"/>
+    <color red="0.612926" green="0.902196" blue="0.623867"/>
+  </star>
+  <star>
+    <point x="371.467" y="366.947"/>
+    <velocity dx="4.651921" dy="-1.9277469"/>
+    <color red="0.82149" green="0.914647" blue="0.979766"/>
+  </star>
+  <star>
+    <point x="117.304" y="123.702"/>
+    <velocity dx="0.90494287" dy="-4.849157"/>
+    <color red="0.524735" green="0.918012" blue="0.982582"/>
+  </star>
+  <star>
+    <point x="358.335" y="390.195"/>
+    <velocity dx="-3.2956092" dy="-3.613487"/>
+    <color red="0.292116" green="0.488273" blue="0.499832"/>
+  </star>
+  <star>
+    <point x="124.618" y="108.299"/>
+    <velocity dx="5.071951" dy="-0.033130948"/>
+    <color red="0.283578" green="0.361126" blue="0.41551"/>
+  </star>
+  <star>
+    <point x="356.572" y="386.891"/>
+    <velocity dx="-2.6377492" dy="-4.120047"/>
+    <color red="0.480995" green="0.659505" blue="0.681959"/>
+  </star>
+  <star>
+    <point x="122.746" y="130.626"/>
+    <velocity dx="-4.568089" dy="-1.778337"/>
+    <color red="0.825861" green="0.902333" blue="0.527642"/>
+  </star>
+  <star>
+    <point x="376.511" y="365.112"/>
+    <velocity dx="5.015891" dy="0.83643603"/>
+    <color red="0.513199" green="0.294588" blue="0.821696"/>
+  </star>
+  <star>
+    <point x="137.381" y="134.988"/>
+    <velocity dx="-3.0660691" dy="3.972803"/>
+    <color red="0.941885" green="0.548677" blue="0.344211"/>
+  </star>
+  <star>
+    <point x="367.29" y="370.207"/>
+    <velocity dx="2.7129908" dy="-4.165197"/>
+    <color red="0.320933" green="0.736869" blue="0.963149"/>
+  </star>
+  <star>
+    <point x="128.39" y="117.052"/>
+    <velocity dx="4.672291" dy="2.0430532"/>
+    <color red="0.932363" green="0.675069" blue="0.717208"/>
+  </star>
+  <star>
+    <point x="370.893" y="376.723"/>
+    <velocity dx="-1.8610091" dy="-4.529517"/>
+    <color red="0.549867" green="0.83797" blue="0.305208"/>
+  </star>
+  <star>
+    <point x="123.662" y="137.703"/>
+    <velocity dx="-4.899239" dy="-0.44252995"/>
+    <color red="0.264351" green="0.305208" blue="0.481521"/>
+  </star>
+  <star>
+    <point x="375.277" y="361.836"/>
+    <velocity dx="5.0721507" dy="0.18640906"/>
+    <color red="0.965186" green="0.989082" blue="0.857837"/>
+  </star>
+  <star>
+    <point x="133.988" y="110.95"/>
+    <velocity dx="4.2852607" dy="2.775463"/>
+    <color red="0.477836" green="0.893063" blue="0.861179"/>
+  </star>
+  <star>
+    <point x="379.964" y="389.412"/>
+    <velocity dx="-4.654209" dy="1.709383"/>
+    <color red="0.35799" green="0.402142" blue="0.598186"/>
+  </star>
+  <star>
+    <point x="130.443" y="113.918"/>
+    <velocity dx="4.5612307" dy="2.2853131"/>
+    <color red="0.591662" green="0.603931" blue="0.875622"/>
+  </star>
+  <star>
+    <point x="384.8" y="376.681"/>
+    <velocity dx="-0.77212614" dy="5.009203"/>
+    <color red="0.95159" green="0.391247" blue="0.877064"/>
+  </star>
+  <star>
+    <point x="128.258" y="111.257"/>
+    <velocity dx="4.938451" dy="1.234423"/>
+    <color red="0.759987" green="0.595897" blue="0.995972"/>
+  </star>
+  <star>
+    <point x="365.586" y="376.425"/>
+    <velocity dx="-0.6751111" dy="-4.862487"/>
+    <color red="0.80755" green="0.903729" blue="0.324915"/>
+  </star>
+  <star>
+    <point x="139.712" y="122.191"/>
+    <velocity dx="1.0110989" dy="4.992453"/>
+    <color red="0.67848" green="0.80089" blue="0.80121"/>
+  </star>
+  <star>
+    <point x="380.554" y="380.707"/>
+    <velocity dx="-3.5101593" dy="3.568183"/>
+    <color red="0.482139" green="0.801416" blue="0.758408"/>
+  </star>
+  <star>
+    <point x="114.099" y="111.011"/>
+    <velocity dx="4.017141" dy="-2.992207"/>
+    <color red="0.990547" green="0.956008" blue="0.384541"/>
+  </star>
+  <star>
+    <point x="369.178" y="399.057"/>
+    <velocity dx="-4.786459" dy="-1.094877"/>
+    <color red="0.682485" green="0.392026" blue="0.336314"/>
+  </star>
+  <star>
+    <point x="108.667" y="125.362"/>
+    <velocity dx="-0.037468143" dy="-4.917577"/>
+    <color red="0.943602" green="0.884846" blue="0.259568"/>
+  </star>
+  <star>
+    <point x="359.391" y="392.698"/>
+    <velocity dx="-3.676629" dy="-3.226117"/>
+    <color red="0.672849" green="0.960334" blue="0.966102"/>
+  </star>
+  <star>
+    <point x="139.584" y="124.818"/>
+    <velocity dx="0.13557856" dy="5.080803"/>
+    <color red="0.545289" green="0.778619" blue="0.516541"/>
+  </star>
+  <star>
+    <point x="375.37" y="381.198"/>
+    <velocity dx="-4.917869" dy="0.37895405"/>
+    <color red="0.430891" green="0.549295" blue="0.709838"/>
+  </star>
+  <star>
+    <point x="126.56" y="117.766"/>
+    <velocity dx="4.9608808" dy="1.135293"/>
+    <color red="0.469802" green="0.727508" blue="0.728584"/>
+  </star>
+</starlist>

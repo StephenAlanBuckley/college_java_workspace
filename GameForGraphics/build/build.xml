@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Game Group Project" default="all" basedir="..">
+
+	<target name="all" depends="setup">
+
+
+		<antcall target="packageall" />
+
+
+	</target>
+
+
+	<target name="setup">
+		<property environment="env" />
+
+		<!-- These are all the project relative paths.  Please add new paths
+             here so they are easier to find when they change. -->
+		<condition property="build.game.base" value="${env.GAME_BASE}" else="${basedir}">
+			<isset property="${env.GAME_BASE}" />
+		</condition>
+		<property name="root" location="${build.game.base}" />
+		<property name="build" location="${build.game.base}/build" />
+		<property name="lib" location="${build.game.base}/lib" />
+
+		<property name="game.src" location="${build.game.base}/src" />
+		<property name="game.classes" location="${build.game.base}/bin" />
+
+		<mkdir dir="${game.classes}" />
+	</target>
+
+	<target name="compile.game" depends="setup">
+		<!-- Generate resource bundle classes -->
+
+
+		<javac srcdir="${game.src}" destdir="${game.classes}" target="1.5" source="1.5" debug="true" deprecation="yes" includeantruntime="false">
+			<compilerarg value="-Xlint" />
+			<classpath>
+				<pathelement location="${game.src}" />
+				<fileset dir="${lib}">
+					<include name="**/*.jar" />
+				</fileset>
+				<pathelement path="${java.class.path}" />
+			</classpath>
+		</javac>
+    </target>
+    
+	<!-- package all calls the setup, compile and package targets. -->
+	<target name="packageall" depends="setup, compile.game, package" />
+
+	<target name="package" depends="compile.game" description="package everything into a JAR">
+
+		<delete file="TheProject.jar" />
+
+		<jar destfile="TheProject.jar" manifest="${root}//build/META-INF/manifest.mf">
+			<zipfileset src="${lib}/gluegen-rt.jar" includes="**/*.java **/*.class" />
+            <zipfileset src="${lib}/jogl.all.jar" includes="**/*.java **/*.class" />
+            <zipfileset src="${lib}/nativewindow.all.jar" includes="**/*.java **/*.class" />
+            <zipfileset src="${lib}/newt.all.jar" includes="**/*.java **/*.class" />
+			<zipfileset src="${lib}/jchart2d-3.2.0.jar" includes="**/*.java **/*.class" />
+
+			<fileset dir="${lib}">
+				<include name="**/*.jnilib" />
+				<include name="**/*.so" />
+				<include name="**/*.dll" />
+			</fileset>
+			
+			<fileset dir="${game.classes}">
+			</fileset>
+			<fileset dir="${root}">
+				<include name="**/*.gif" />
+				<include name="**/*.png" />
+				<include name="**/*.jpeg" />
+                <include name="**/*.jpg" />
+                <include name="**/*.JPG" />
+				<include name="**/*.dae" />
+				<include name="**/*.wav" />
+				<include name="**/*.hash" />
+			</fileset>
+		</jar>
+	</target>
+</project>

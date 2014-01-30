@@ -1,0 +1,52 @@
+// Sound test
+// William Ames Fall 2010
+package main;
+import java.applet.*;
+import java.net.*;
+
+public class Sounds
+{
+	private boolean soundOn;
+	public AudioClip gunshot;
+	public AudioClip soundtrack;
+	public AudioClip turret;
+	public AudioClip wilhelm;
+	
+	public AudioClip powerup;
+	public AudioClip health;
+	public AudioClip star;
+	public AudioClip freeze;
+
+	public Sounds(){
+		soundOn = true;
+		 gunshot = FileHelper.getAudioClip("famasFire1.wav");
+		 soundtrack = FileHelper.getAudioClip("soundtrack.wav");
+		 turret = FileHelper.getAudioClip("turret.wav");
+		 wilhelm = FileHelper.getAudioClip("wilhelm.wav");
+		 powerup = FileHelper.getAudioClip("powerup.wav");
+		 health = FileHelper.getAudioClip("Health.wav");
+		 star = FileHelper.getAudioClip("Star.wav");
+		 freeze = FileHelper.getAudioClip("freeze.wav");
+
+		 soundtrack.loop();
+		
+	}
+
+	public void endSounds(){
+		soundtrack.stop();
+	}
+	
+	//DO NOT DELETE!
+	public void toggleSound(){
+		if(soundOn){
+			soundtrack.stop();
+			soundOn=false;
+		}
+		else{
+			soundtrack.loop();
+			soundOn=true;
+		}
+	
+	}
+
+}
